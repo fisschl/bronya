@@ -8,6 +8,7 @@
   "dependencies": {
     "@duckdb/duckdb-wasm": "1.29.1-dev132.0",
     "@fontsource-variable/fira-code": "^5.2.6",
+    "@fontsource-variable/noto-sans-sc": "^5.2.6",
     "@iconify-json/tabler": "^1.2.19",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",

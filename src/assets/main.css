@@ -1,3 +1,22 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms";
+
+@theme {
+  --font-sans: "Noto Sans SC Variable", system-ui;
+  --font-mono: "Fira Code Variable", "Noto Sans SC Variable", monospace;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+#app {
+  height: 100dvh;
+  width: 100%;
+  overflow: auto;
+}
