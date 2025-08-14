@@ -14,13 +14,4 @@ export default defineConfig({
       },
     ],
   },
-  builderConfig: {
-    tools: {
-      rspack: {
-        resolve: {
-          preferRelative: true,
-        },
-      },
-    },
-  },
 });
