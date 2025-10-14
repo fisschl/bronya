@@ -1,39 +1,60 @@
-# vue-project
+# Nuxt Starter Template
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
-## Recommended IDE Setup
+Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Live demo](https://starter-template.nuxt.dev/)
+- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
 
-## Type Support for `.vue` Imports in TS
+<a href="https://starter-template.nuxt.dev/" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
+    <img alt="Nuxt Starter Template" src="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
+  </picture>
+</a>
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+> The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.
 
-## Customize configuration
+## Quick Start
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```bash [Terminal]
+npm create nuxt@latest -- -t github:nuxt-ui-templates/starter
+```
 
-## Project Setup
+## Deploy your own
 
-```sh
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=starter&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fstarter&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fstarter-dark.png&demo-url=https%3A%2F%2Fstarter-template.nuxt.dev%2F&demo-title=Nuxt%20Starter%20Template&demo-description=A%20minimal%20template%20to%20get%20started%20with%20Nuxt%20UI.)
+
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+## Development Server
 
-```sh
+Start the development server on `http://localhost:3000`:
+
+```bash
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Production
 
-```sh
+Build the application for production:
+
+```bash
 pnpm build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Locally preview production build:
 
-```sh
-pnpm lint
+```bash
+pnpm preview
 ```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
