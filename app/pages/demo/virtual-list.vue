@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useElementSize } from "@vueuse/core";
-import { useVirtualList } from "../tools/virtual";
+import { useVirtualList } from "../../tools/virtual";
 
 // 定义列表项数据结构
 interface ListItem {
@@ -47,7 +47,7 @@ initItems(100000);
 
 <template>
   <!-- 虚拟列表容器 -->
-  <div class="container-box flex flex-col p-4">
+  <div class="flex h-full flex-1 flex-col p-4">
     <div
       ref="list-container"
       class="relative w-full flex-1 overflow-hidden border border-neutral-300 bg-white dark:border-neutral-600 dark:bg-neutral-800"
@@ -73,9 +73,3 @@ initItems(100000);
     </div>
   </div>
 </template>
-
-<style scoped>
-.container-box {
-  height: calc(100vh - 8rem);
-}
-</style>

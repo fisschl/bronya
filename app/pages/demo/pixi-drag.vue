@@ -80,5 +80,5 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div ref="canvas-container" class="h-full w-full overflow-hidden" />
+  <div ref="canvas-container" class="relative h-full flex-1 overflow-hidden" />
 </template>
